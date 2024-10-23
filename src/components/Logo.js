@@ -14,7 +14,7 @@ const Logo = () => {
         <img
           src="/NexTemp-logo.png"
           alt="Logo"
-          className="w-full h-full object-contain rounded-full w-10 h-10 py-2 px-2"
+          className="w-full h-full object-contain rounded-full py-2 px-2"
         />
       </MotionLink>
     </div>

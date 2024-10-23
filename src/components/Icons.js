@@ -51,6 +51,23 @@ export const TwitterIcon = ({ className, ...rest }) => (
   </svg>
 );
 
+export const FacebookIcon = ({ className, ...rest }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    viewBox="0 0 256 256"
+    {...rest}
+    className={`w-full h-auto ${className}`}
+  >
+    <path fill="none" d="M0 0h256v256H0z" />
+    <path
+      fill="#1877F2"
+      d="M256 128C256 57.31 198.69 0 128 0S0 57.31 0 128c0 64.78 47.8 118.36 110.7 127.22v-89.84H77.35v-37.37h33.35v-28.39c0-33 20.16-51.07 49.41-51.07 14.03 0 26.1 1.04 29.62 1.51v34.33h-20.28c-15.89 0-18.96 7.55-18.96 18.63v24.99h37.92l-4.94 37.37h-32.98v89.84C208.2 246.36 256 192.78 256 128z"
+    />
+  </svg>
+);
+
 export const LinkedInIcon = ({ className, ...rest }) => (
   <svg
     viewBox="-2.4 -2.4 28.80 28.80"
@@ -117,6 +134,63 @@ export const DribbbleIcon = ({ className, ...rest }) => (
     <path
       fill="#B2215A"
       d="M128 255.7c-70.6 0-128-57.3-128-127.8C0 57.3 57.4 0 128 0s128 57.3 128 127.8-57.4 127.9-128 127.9Zm107.9-110.4c-3.7-1.2-33.8-10.1-68.1-4.7 14.3 39.2 20.1 71.2 21.2 77.8 24.6-16.5 42.1-42.7 46.9-73.1Zm-65.2 83.2c-1.6-9.6-8-43-23.3-82.8-.2.1-.5.2-.7.2-61.7 21.5-83.8 64.2-85.8 68.2 18.5 14.4 41.8 23 67.1 23 15.1.1 29.6-3 42.7-8.6ZM46.8 201c2.5-4.2 32.5-53.8 88.9-72.1 1.4-.5 2.9-.9 4.3-1.3-2.7-6.2-5.7-12.4-8.9-18.5-54.6 16.3-107.6 15.6-112.4 15.5 0 1.1-.1 2.2-.1 3.3.1 28.1 10.7 53.7 28.2 73.1ZM21 105.6c4.9.1 49.9.3 101.1-13.3C104 60.1 84.4 33.1 81.6 29.2 50.9 43.6 28.1 71.8 21 105.6Zm81.4-83.8c3 4 22.9 31 40.8 63.9 38.9-14.6 55.3-36.6 57.3-39.4-19.3-17.1-44.7-27.5-72.5-27.5-8.8 0-17.4 1.1-25.6 3Zm110.2 37.1c-2.3 3.1-20.6 26.6-61 43.1 2.5 5.2 5 10.5 7.3 15.8.8 1.9 1.6 3.8 2.4 5.6 36.4-4.6 72.5 2.8 76.1 3.5-.3-25.7-9.5-49.4-24.8-68Z"
+    />
+  </svg>
+);
+
+export const XIcon = ({ className, ...rest }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    viewBox="0 0 256 256"
+    {...rest}
+    className={`w-full h-auto ${className}`}
+  >
+    <path fill="none" d="M0 0h256v256H0z" />
+    <path
+      fill="#000000"
+      d="M194.43 51.86l-57.28 73.33 72.94 87.84h-38.03l-60.55-73.33-22.98 27.56v45.77H60.38V160.9l30.93-37.23-65.72-71.82h38.03l60.55 69.67L147.9 75.4V29.63h34.43v22.23h12.1z"
+    />
+  </svg>
+);
+
+export const InstagramIcon = ({ className, ...rest }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1.5em"
+    height="1.5em"
+    viewBox="0 0 256 256"
+    {...rest}
+    className={`w-full h-auto ${className}`}
+  >
+    <linearGradient
+      id="instagram-gradient"
+      x1="50%"
+      y1="0%"
+      x2="50%"
+      y2="100%"
+    >
+      <stop offset="0%" stopColor="#f09433" />
+      <stop offset="25%" stopColor="#e6683c" />
+      <stop offset="50%" stopColor="#dc2743" />
+      <stop offset="75%" stopColor="#cc2366" />
+      <stop offset="100%" stopColor="#bc1888" />
+    </linearGradient>
+    <rect
+      x="40"
+      y="40"
+      width="176"
+      height="176"
+      rx="48"
+      ry="48"
+      fill="url(#instagram-gradient)"
+    />
+    <path
+      fill="none"
+      stroke="#fff"
+      strokeWidth="16"
+      d="M128 88a40 40 0 1 1-40 40 40 40 0 0 1 40-40zm52-28a12 12 0 1 1-12 12 12 12 0 0 1 12-12zm32 28c0-26.51-21.49-48-48-48H92c-26.51 0-48 21.49-48 48v64c0 26.51 21.49 48 48 48h72c26.51 0 48-21.49 48-48z"
     />
   </svg>
 );

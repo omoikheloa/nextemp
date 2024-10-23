@@ -207,7 +207,7 @@ const Project = ({ title, type, img, link, tools }) => {
             {title}
           </h2>
         </Link>
-        <div className="flex w-full items-center  justify-between">
+        <div className="flex w-full items-center justify-between">
           <Link
             href={link}
             className="rounded-lg

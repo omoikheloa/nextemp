@@ -5,10 +5,13 @@ import { useRouter } from "next/router";
 import {
   MediumIcon,
   DevIcon,
+  InstagramIcon,
+  XIcon,
+  FacebookIcon,
   GithubIcon,
-  LinkedInIcon,
   MoonIcon,
   SunIcon,
+  TwitterIcon,
 } from "./Icons";
 import { motion } from "framer-motion";
 import { useThemeSwitch } from "./Hooks/useThemeSwitch";
@@ -110,7 +113,7 @@ const Navbar = () => {
           <CustomLink className="mr-4" href="/" title="Home" />
           <CustomLink className="mx-4" href="/about" title="About" />
           <CustomLink className="mx-4" href="/projects" title="Projects" />
-          <CustomLink className="ml-4" href="/articles" title="Articles" />
+          {/* <CustomLink className="ml-4" href="/articles" title="Articles" /> */}
         </nav>
         <nav
           className="flex items-center justify-center flex-wrap lg:mt-2
@@ -119,40 +122,40 @@ const Navbar = () => {
           <motion.a
             target={"_blank"}
             className="w-7 mr-3"
-            href="https://github.com/lilxyzz"
+            // href="https://github.com/lilxyzz"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             aria-label="Checkout my GitHub profile"
           >
-            <GithubIcon />
+            <InstagramIcon />
           </motion.a>
 
           <motion.a
             target={"_blank"}
-            className="w-7 mx-3 bg-light rounded-full"
-            href="https://medium.com/@travis.lord"
+            className="w-6 mx-3 bg-light rounded-full"
+            // href="https://medium.com/@travis.lord"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             aria-label="Checkout my Medium profile"
           >
-            <MediumIcon />
+            <TwitterIcon />
           </motion.a>
 
           <motion.a
             target={"_blank"}
-            className="w-7 mx-3"
-            href="https://dev.to/lilxyzz"
+            className="w-6 mx-3"
+            // href="https://dev.to/lilxyzz"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             aria-label="Checkout my Dev.to profile"
           >
-            <DevIcon />
+            <FacebookIcon />
           </motion.a>
 
           <motion.a
             target={"_blank"}
             className="w-7 mx-3"
-            href="https://dev.to/lilxyzz"
+            // href="https://dev.to/lilxyzz"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             aria-label="My Dev.to profile"
@@ -221,7 +224,7 @@ const Navbar = () => {
             <motion.a
               target={"_blank"}
               className="w-6 mr-3"
-              href="https://github.com/lilxyzz"
+              // href="https://github.com/lilxyzz"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
               aria-label="Checkout my Github profile"
@@ -232,7 +235,7 @@ const Navbar = () => {
             <motion.a
               target={"_blank"}
               className="w-6 mx-3 bg-light rounded-full"
-              href="https://medium.com/@travis.lord"
+              // href="https://medium.com/@travis.lord"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
               aria-label="Checkout my Medium profile"
@@ -242,7 +245,7 @@ const Navbar = () => {
             <motion.a
               target={"_blank"}
               className="w-6 mx-3"
-              href="https://dev.to/lilxyzz"
+              // href="https://dev.to/lilxyzz"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
               aria-label="Checkout my Dev.to profile"
@@ -252,7 +255,7 @@ const Navbar = () => {
             <motion.a
               target={"_blank"}
               className="w-6 mx-3"
-              href="https://dev.to/lilxyzz"
+              // href="https://dev.to/lilxyzz"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
               aria-label="My Dev.to profile"

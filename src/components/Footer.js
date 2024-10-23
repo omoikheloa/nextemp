@@ -9,7 +9,7 @@ const Footer = () => {
     font-base text-lg dark:text-light dark:border-light sm:text-base
     "
     >
-      <Layout className="py-8 flex items-center justify-center lg:flex-col lg:py-6">
+      <Layout className="py-2 flex items-center justify-center lg:flex-col lg:py-2">
         <span>&copy; {new Date().getFullYear()}</span>
 
         <div className="flex items-center lg:py-2 ml-2">
@@ -17,10 +17,10 @@ const Footer = () => {
           {""}
           by&nbsp;
           <Link
-            href="https://travislord.xyz/"
+            href="https://cerebralhub.com/"
             className="underline underline-offset-2"
           >
-            Travis Lord
+            Cerebral Hub
           </Link>
         </div>
       </Layout>
